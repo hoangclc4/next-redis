@@ -1,0 +1,3 @@
+ZADD books 1 "book:1" 2 "book:2"
+HMSET book:1 title "The Hobbit" author "J. R. R. Tolkien" blurb "In a hole in the ground there lived a hobbit." rating 4.7
+HMSET book:2 title "The Lord of the Rings" author "J. R. R. Tolkien" blurb "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them." rating 4.6
